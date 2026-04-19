@@ -33,7 +33,7 @@ export default function Contact() {
       </p>
 
       <div className="space-y-4 text-sm">
-        {contacts.map((item, index) => (
+        {contacts.map((item) => (
           <a
             className="
               group flex items-center gap-3 text-[#6aa9c7]
