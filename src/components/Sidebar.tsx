@@ -49,7 +49,6 @@ export default function Sidebar(): JSX.Element {
         flex flex-col justify-between
       "
     >
-      {/* 🔼 TOPO */}
       <div>
         <h1 className="font-[Orbitron] text-5xl tracking-[0.2em] text-[#ddd6fe]">
           Luciana
@@ -73,7 +72,6 @@ export default function Sidebar(): JSX.Element {
                 href={`#${section.id}`}
                 className="group flex items-center gap-4 font-[Orbitron] text-sm tracking-widest"
               >
-                {/* linha */}
                 <span
                   className={`
                     block h-[1px] transition-all duration-300
@@ -85,7 +83,6 @@ export default function Sidebar(): JSX.Element {
                   `}
                 />
 
-                {/* texto */}
                 <span
                   className={`
                     transition-all duration-300
@@ -104,7 +101,6 @@ export default function Sidebar(): JSX.Element {
         </nav>
       </div>
 
-      {/* 🔽 FOOTER */}
       <div className="flex flex-col gap-4">
         <LanguageToggle />
 

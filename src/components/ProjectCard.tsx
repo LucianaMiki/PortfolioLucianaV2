@@ -1,5 +1,3 @@
-import { useTranslation } from "react-i18next";
-
 type ProjectCardProps = {
   title: string;
   description: string;
@@ -19,8 +17,6 @@ export default function ProjectCard({
   githubFront,
   githubBack,
 }: ProjectCardProps) {
-  const { t } = useTranslation();
-
   return (
     <div
       className="
@@ -29,7 +25,6 @@ export default function ProjectCard({
         hover:bg-white/5 hover:translate-x-1
       "
     >
-      {/* IMAGE */}
       <div className="w-full md:w-[250px] shrink-0 overflow-hidden rounded-md">
         <img
           src={image}
@@ -43,7 +38,6 @@ export default function ProjectCard({
         />
       </div>
 
-      {/* CONTENT */}
       <div className="max-w-md">
         <h3 className="
           text-base font-semibold text-white
