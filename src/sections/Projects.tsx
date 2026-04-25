@@ -10,22 +10,22 @@ export default function Projects() {
       tech: "React • Node.js • MongoDB",
       image: "/projetoFacebook.png",
       live: "https://mikiproject.netlify.app/",
-      githubFront: "https://github.com/seu-front",
-      githubBack: "https://github.com/seu-back",
+      githubFront: "https://github.com/LucianaMiki/facebook-fontend",
+      githubBack: "https://github.com/LucianaMiki/facebook-backend",
     },
     {
       key: "project2",
       tech: "React • JavaScript • CSS",
       image: "/projetoLogin.png",
       live: "https://loginlucianamiki.netlify.app/",
-      githubFront: "https://github.com/seu-repo",
+      githubFront: "https://github.com/LucianaMiki/login-frontend",
     },
     {
       key: "project3",
       tech: "React • JavaScript • CSS",
       image: "/projetoPortfolio.png",
       live: "https://lumikiportfolio.netlify.app/",
-      githubFront: "https://github.com/seu-repo",
+      githubFront: "https://github.com/LucianaMiki/portfolioLuciana",
     },
   ];
 
